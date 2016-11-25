@@ -13,9 +13,6 @@ h5,
 h6 {
   text-transform: uppercase;
 }
-ul.nav li.dropdown:hover > ul.dropdown-menu {
-  display: block;
-}
 header.navbar {
   margin: 0 !important;
   border-radius: 0 !important;
@@ -159,6 +156,11 @@ body .main-container .row {
   padding: 0 15px;
   margin: 20px auto 0;
   max-width: 640px !important;
+}
+:hover > ul.dropdown-menu {
+  display: block;
+  max-height: 240px !important;
+  overflow-y: scroll !important;
 }
 body > footer {
   background-color: #0a0e1a;
