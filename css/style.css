@@ -175,12 +175,14 @@ body .main-container .row {
 ul.dropdown-menu {
   margin-top: 0px !important;
 }
-.btn-group:hover > ul.dropdown-menu {
+.btn-group:hover > ul.dropdown-menu,
+li.dropdown:hover > ul.dropdown-menu {
   display: block;
   max-height: 240px !important;
   overflow-y: scroll !important;
 }
-.btn-group:hover > ul.dropdown-menu ul.dropdown-menu {
+.btn-group:hover > ul.dropdown-menu ul.dropdown-menu,
+li.dropdown:hover > ul.dropdown-menu ul.dropdown-menu {
   max-height: initial;
   overflow-y: hidden !important;
 }
