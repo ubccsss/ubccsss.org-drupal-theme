@@ -35,6 +35,21 @@ header.navbar .navbar-brand {
   font-size: 0.9em !important;
   font-weight: 800 !important;
 }
+@media (max-width: 768px) {
+  header nav ul.dropdown-menu {
+    display: block;
+    width: 100%;
+    background-color: inherit;
+    position: relative;
+    padding: 0 0px 10px 15px;
+  }
+  header nav ul.dropdown-menu li > a {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+  }
+}
 .jumbotron {
   padding: 0 0 0 15px !important;
   background-color: white !important;
@@ -157,10 +172,16 @@ body .main-container .row {
   margin: 20px auto 0;
   max-width: 640px !important;
 }
+ul.dropdown-menu {
+  margin-top: 0px !important;
+}
 :hover > ul.dropdown-menu {
   display: block;
   max-height: 240px !important;
   overflow-y: scroll !important;
+}
+:hover > ul.dropdown-menu ul.dropdown-menu {
+  overflow-y: hidden !important;
 }
 body > footer {
   background-color: #0a0e1a;
