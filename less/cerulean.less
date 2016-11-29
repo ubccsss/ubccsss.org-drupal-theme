@@ -181,6 +181,9 @@ body {
     width: 100%;
     margin: 0px !important;
     padding: 0px !important;
+    & > header {
+      overflow-x: hidden;
+    }
     .row {
       padding: 0 15px;
       margin: 20px auto 0;
@@ -197,7 +200,7 @@ ul.dropdown-menu {
 .btn-group:hover > ul.dropdown-menu, li.dropdown:hover > ul.dropdown-menu {
   display: block;
   max-height: 240px !important;
-  overflow-y: scroll !important;
+  overflow-y: auto !important;
 
   ul.dropdown-menu {
     max-height: initial;

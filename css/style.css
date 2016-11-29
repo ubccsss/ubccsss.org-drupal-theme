@@ -167,6 +167,9 @@ body .main-container {
   padding: 0px !important;
   flex-grow: 2000;
 }
+body .main-container > header {
+  overflow-x: hidden;
+}
 body .main-container .row {
   padding: 0 15px;
   margin: 20px auto 0;
@@ -179,7 +182,7 @@ ul.dropdown-menu {
 li.dropdown:hover > ul.dropdown-menu {
   display: block;
   max-height: 240px !important;
-  overflow-y: scroll !important;
+  overflow-y: auto !important;
 }
 .btn-group:hover > ul.dropdown-menu ul.dropdown-menu,
 li.dropdown:hover > ul.dropdown-menu ul.dropdown-menu {
