@@ -1,6 +1,6 @@
 name = 'Cube'
 description = The Cube Theme. Based on Cerulean, from Bootswatch
-core = 7.x
+core = 8.x
 base theme = bootstrap
 
 
